@@ -1,0 +1,71 @@
+* {
+    color: white;
+    width: 100%;
+}
+
+.chatbox {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-input-holder {
+    margin: 12px;
+    padding: 24px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute ;
+
+}
+
+.chat-input-textarea {
+    background-color: #40414f;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.25);
+    padding: 12px;
+    color:white;
+    font-size: 1.25em;
+
+}
+
+.chat-log {
+    padding: 24px;
+    overflow-y: scroll;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-message.chatgpt {
+    background-color: #444654;
+}
+
+.chat-message-center {
+    /* max-width: 640px; Remove or adjust this line */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 10px;
+}
+
+.avatar {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.avatar.chatgpt {
+    background-color: #0da37f;
+}
+
+.message{
+}
